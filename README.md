@@ -9,9 +9,14 @@ automated fishing botfarm for **some** 20 year old mmorpg using computer vision 
 
    ```bash
    sudo emerge dwm xephyr xdotool alacritty 
+
+2. do the venv
+   ```bash
+   python3 -m venv basedenv
+   source basedenv/bin/activate
     ```
 
-2. install python dependencies:
+3. install python dependencies:
    ```bash
    pip install -r requirements.txt
     ```
