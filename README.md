@@ -1,7 +1,7 @@
 # fishing bot
 
 
-a simple automated fishing botfarm **some** game using computer vision and virtual displays.
+automated fishing botfarm for **some** game using computer vision and virtual displays.
 
 ## usage
 
@@ -15,9 +15,14 @@ a simple automated fishing botfarm **some** game using computer vision and virtu
    ```bash
    pip install -r requirements.txt
     ```
-    prepare the virtual display:
+
+prepare the virtual display:
 
 python windows99.py
 
+run the bot:
 
 python main.py
+
+
+figure it out captain
