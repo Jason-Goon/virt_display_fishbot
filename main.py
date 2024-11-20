@@ -1,3 +1,4 @@
+# main.py
 import os
 os.environ["DISPLAY"] = ":99"
 import cv2 as cv
@@ -49,7 +50,7 @@ def calculate_rgb_average(screenshot_path, bobber_x, bobber_y):
     end_y = min(bobber_y + half_box, screenshot.shape[0])
     box_area = screenshot[start_y:end_y, start_x:end_x]
     avg_rgb = box_area.mean(axis=(0, 1))
-    avg_rgb = avg_rgb[::-1]  # Convert BGR to RGB
+    avg_rgb = avg_rgb[::-1]  
     print(f"Average RGB in 50x50 box around the bobber: {avg_rgb}")
     return avg_rgb
 
