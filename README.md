@@ -1,7 +1,7 @@
 # fishing bot
 
 
-a simple automated fishing bot for games using computer vision and virtual displays.
+a simple automated fishing botfarm **some** game using computer vision and virtual displays.
 
 ## usage
 
